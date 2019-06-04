@@ -1,0 +1,10 @@
+
+
+
+
+
+Set WinScriptHost = CreateObject("WScript.Shell")
+
+WinScriptHost.Run "c:\xampp\php\php.exe %PATH-TO-KMP%\admin\CRON\cron.php %URL-TO-KMP%/", 0
+
+Set WinScriptHost = Nothing
